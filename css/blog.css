@@ -1,0 +1,175 @@
+*body {
+  margin: 0;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 44px;
+}
+.nav-button {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-left: 25px;
+}
+.nav-button .Login {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.nav-button .SignUp {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.nav-button .Login:hover {
+  background-color: rgb(31, 27, 27);
+}
+.nav-button a {
+  color: black;
+  font-size: 16px;
+}
+.nav-button .Login:hover a {
+  font-size: 16px;
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+}
+.nav-button .SignUp:hover {
+  background-color: #f72585;
+  border: #f72585;
+}
+.nav-button .SignUp:hover a {
+  font-size: 16px;
+  color: aliceblue;
+}
+.nav-text {
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 31px;
+  color: #1c3554;
+  cursor: pointer;
+}
+.nav-cartigoria {
+  padding-left: 40px;
+}
+.nav-cartigoria select {
+  border: none;
+}
+.nav-logo {
+  padding-right: 24px;
+}
+.navbar {
+  padding-top: 36px;
+}
+.blog-1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  width: 552px;
+  color: #1c3554;
+}
+.blog-2 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.blog-3 {
+  padding-bottom: 74px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: #f72585;
+  background-color: #f72585;
+  border-radius: 8px;
+}
+button a {
+  color: aliceblue;
+}
+.blog-card {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+.blog-card {
+  padding-bottom: 56px;
+}
+footer {
+  padding-top: 160px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 80px;
+  background-color: #021934;
+  border-radius: 8px;
+}
+.logotext {
+  width: 500px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.logo2 {
+  padding-bottom: 32px;
+}
+.footer2 ul li:nth-child(1),
+.footer3 ul li:nth-child(1),
+.footer4 ul li:nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.footer2,
+.footer3,
+.footer4,
+a {
+  color: #ffffff;
+}
+.footer2,
+.footer3,
+.footer4,
+li {
+  padding-bottom: 8px;
+}
+.footer2 ul li:nth-child(5) {
+  padding-bottom: 80px;
+}

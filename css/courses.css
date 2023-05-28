@@ -1,0 +1,159 @@
+*body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+  max-width: 1440px;
+}
+.courses {
+  font-size: 16px;
+  padding-top: 16px;
+
+  line-height: 32px;
+  color: #e6e6e6;
+}
+.reyting {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.reyting1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.main-section {
+  background-color: #696666;
+}
+.review {
+  font-size: 14px;
+  line-height: 24px;
+  color: #e6e6e6;
+}
+.main-hider {
+  padding-left: 115px;
+  padding-right: 115px;
+}
+.students {
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 52px;
+  color: #e6e6e6;
+}
+.user-courses {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+  padding-bottom: 68px;
+}
+.courses-button button {
+  background: #f72585;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 80px;
+}
+.courses-button {
+  display: flex;
+  gap: 24px;
+}
+.courses-button p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.courses-header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  width: 712px;
+  color: #ffffff;
+}
+.user-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.about-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.about-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  width: 712px;
+  padding-bottom: 32px;
+  color: #808080;
+}
+.about {
+  padding-left: 105px;
+  padding-right: 105px;
+}
+.object-1 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-left: 10px;
+}
+.icon-text {
+  width: 249px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c3554;
+}
+.object-2 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.about {
+  display: flex;
+  justify-content: start;
+  gap: 64px;
+}
+.object-main {
+  display: flex;
+  border-radius: 8px;
+  background-color: #fff5f9;
+  gap: 50px;
+  justify-content: start;
+}
+.Requirement {
+  margin-top: 40px;
+  background-color: #fff5f9;
+  border-radius: 8px;
+}
+.Requirement-1 {
+  display: flex;
+
+  padding-left: 44px;
+  padding-right: 44px;
+  align-items: center;
+  gap: 16px;
+}
+.Requirement-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c3554;
+}
+.object-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
